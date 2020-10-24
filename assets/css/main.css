@@ -2198,11 +2198,17 @@ input, select, textarea {
 			}
 
 			#banner header p {
-				color: #d52349;
+				color: #fff;
 				padding: 0;
 				font-style: normal;
 				margin: 0;
 				font-size: 1.5em;
+			}
+			#banner header contact{
+				color: #fff;
+				font-weight: 700;
+				font-size: 2.5em;
+				margin: 0 0 0 0;
 			}
 
 /* Intro */
@@ -2291,7 +2297,7 @@ input, select, textarea {
 	#footer {
 		position: relative;
 		color: #858484;
-		padding: 4em 0;
+		padding: 0 0;
 	}
 
 		#footer:before {
@@ -2346,7 +2352,7 @@ input, select, textarea {
 			background: rgba(255, 255, 255, 0.05);
 			border-radius: 5px;
 			margin: 0;
-			padding: 0.85em 2.25em 0.85em 2.25em;
+			/* padding: 0.85em 2.25em 0.85em 2.25em; */
 		}
 
 /* XLarge */
@@ -2905,4 +2911,45 @@ input, select, textarea {
 				padding: 40px 0 20px 0;
 			}
 
+	}
+
+	.box footer .common-store--apple {
+		background-image: url("../../images/appstore.png");
+	}
+	.box footer .common-store {
+		display: inline-block;
+		vertical-align: middle;
+		text-decoration: none;
+		background-color: transparent;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		margin-right: 20px;
+		width: 170px;
+		height: 50px;
+		-webkit-transition: all 0.3s;
+		transition: all 0.3s;
+		margin-bottom: 10px;
+	}
+
+	.box footer .common-store-wrap {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		max-width: 360px;
+	}
+
+	.box footer .common-store--google {
+		background-image: url("../../images/gplay.png");
 	}
