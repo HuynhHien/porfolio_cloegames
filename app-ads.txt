@@ -1,1 +1,1 @@
-Test content of app-ads.txt
+google.com, pub-5949942558791875, DIRECT, f08c47fec0942fa0
